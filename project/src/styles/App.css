@@ -118,6 +118,54 @@ div.gridContainer1 div.heroPage div.slider{
 
 div.gridContainer1 div.recipes{
     background-color: white;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+div.gridContainer1 div.recipes div.recipe1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+div.gridContainer1 div.recipes div.recipe1 div.more,
+div.gridContainer1 div.recipes div.recipe2 div.more,
+div.gridContainer1 div.recipes div.recipe3 div.more{
+    display: flex;
+}
+div.gridContainer1 div.recipes div.recipe1 div.more div.numbers,
+div.gridContainer1 div.recipes div.recipe2 div.more div.numbers,
+div.gridContainer1 div.recipes div.recipe3 div.more div.numbers{
+    padding-left: 0.4vw;
+}
+div.gridContainer1 div.recipes div.recipe1 div.more div.time,
+div.gridContainer1 div.recipes div.recipe2 div.more div.time,
+div.gridContainer1 div.recipes div.recipe3 div.more div.time{
+    border-right: #6f6f6f 1px solid;
+    padding-right: 0.5vw;
+}
+div.gridContainer1 div.recipes div.recipe1 div.recipeName,
+div.gridContainer1 div.recipes div.recipe2 div.recipeName,
+div.gridContainer1 div.recipes div.recipe3 div.recipeName{
+    padding-top: 10px;
+}
+div.gridContainer1 div.recipes div.recipe1 div.image{
+    background: url(../images/recipes/recipe1.png) no-repeat;
+    width: 313px;
+    height: 208px;
+}
+div.gridContainer1 div.recipes div.recipe2 div.image{
+    background: url(../images/recipes/recipe2.png) no-repeat;
+    width: 313px;
+    height: 208px;
+}
+div.gridContainer1 div.recipes div.recipe3 div.image{
+    background: url(../images/recipes/recipe3.png) no-repeat;
+    width: 313px;
+    height: 208px;
 }
 
 /* recipe */
