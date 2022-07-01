@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: #eaeaea;
+}
+div.logo{
+    background: url(../images/logos/logo.png) no-repeat 53.29% 64.17% #8b3a3a;
+    height: 530px;
+    width: 77.85vw;
+    margin: 0 auto;
+}
+div.gridContainer1{
+    background-color: #8b3a3a;
+    width: 77.85vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 123px 438px 374px 439px;
+    row-gap: 85px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* TopMenu */
+
+div.gridContainer1 div.topMenu{
+    background: #f8f8f8 url(../images/logos/topMenuLogo.png) no-repeat 10vw 45%;
+}
+div.gridContainer1 div.topMenu div.menu a{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2a1f1f;
+    font-size: 20px;
+}
+div.gridContainer1 div.topMenu div.menu{
+    display: flex;
+    height: 100%;
+    margin: 0 6.04vw 0 19.1vw;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div.gridContainer1 div.topMenu div.menu form.search{
+    position: relative;
+}
+div.gridContainer1 div.topMenu div.menu form.search input[type=submit]:hover{
+    cursor: pointer;
+}
+div.gridContainer1 div.topMenu div.menu form.search input[type=submit]{
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    padding: 0;
+    top: 5px;
+    right: 0.1vw;
+}
+div.gridContainer1 div.topMenu div.menu form.search input[type=text]{
+    height: 26px;
+    width: 160px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: #c2c2c2 solid 1px;
+}
