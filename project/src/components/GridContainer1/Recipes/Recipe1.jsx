@@ -7,7 +7,7 @@ const Recipe1 = function (){
             <div className="recipeName">Raspberry & Cream Frozen Yogurt Pie</div>
             <div className="more">
                 <div className="time">🕘35mins</div>
-                <div className="numbers">🖅7👀14</div>
+                <div className="numbers">💬7👀14</div>
             </div>
         </div>
     )

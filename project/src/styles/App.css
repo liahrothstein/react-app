@@ -173,3 +173,68 @@ div.gridContainer1 div.recipes div.recipe3 div.image{
 div.gridContainer1 div.recipe{
     background-color: white;
 }
+div.gridContainer1 div.recipe div.main{
+    display: flex;
+    justify-content: space-between;
+}
+div.gridContainer1 div.recipe div.main div.image{
+    width: 36.25vw;
+    height: 439px;
+    background: url(../images/recipe/image.png) no-repeat;
+}
+div.gridContainer1 div.recipe div.main div.text:not(div.gridContainer1 div.recipe div.main div.text div.header div.text){
+    margin: 30px 0;
+}
+div.gridContainer1 div.recipe div.main div.text div.header{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4.79vw;
+}
+div.gridContainer1 div.recipe div.main div.text div.header div.text{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #055555;
+}
+div.gridContainer1 div.recipe div.main div.text div.header div.others{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+div.gridContainer1 div.recipe div.main div.text div.header div.others div.more{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #555555;
+}
+div.gridContainer1 div.recipe div.main div.text div.header div.others button{
+    font-family: 'Josefin Sans', sans-serif;
+    background: white;
+    border: 1px solid #c2c2c2;
+    width: 110px;
+    height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div.gridContainer1 div.recipe div.main div.text div.header div.others button:hover{
+    cursor: pointer;
+}
+div.gridContainer1 div.recipe div.main div.text div.mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 3.47vw;
+    overflow: auto;
+}
+div.gridContainer1 div.recipe div.main div.text div.mainText div.directions{
+    margin: 20px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+div.gridContainer1 div.recipe div.main div.text div.mainText div.ingredients,
+div.gridContainer1 div.recipe div.main div.text div.mainText div.instruction{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}

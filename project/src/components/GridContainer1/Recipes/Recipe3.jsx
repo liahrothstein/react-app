@@ -7,7 +7,7 @@ const Recipe3 = function (){
             <div className="recipeName">Dark Chocolate Crunch Ice Cream<br />Sandwich Cake</div>
             <div className="more">
                 <div className="time">🕘15mins</div>
-                <div className="numbers">🖅4👀167</div>
+                <div className="numbers">💬4👀167</div>
             </div>
         </div>
     )
