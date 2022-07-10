@@ -1152,7 +1152,7 @@ div.postComment div.container div.postContainer form input[type="submit"]{
 
 /* Comments */
 
-/* div.comments{
+div.comments{
     height: 761px;
     padding-top: 47px;
     width: 77.85vw;
@@ -1188,7 +1188,7 @@ div.comments div.container div.post1{
 div.comments div.container div.post1 div.photo{
     height: 58px;
     width: 58px;
-    background: url(./comments/bloger.png);
+    background: url(../images/comments/bloger.png);
     grid-row: 1/4;
     grid-column: 1/2;
 }
@@ -1221,12 +1221,12 @@ div.comments div.container div.post1 div.more{
     font-size: 15px;
 }
 div.comments div.container div.post1 div.more div.share::after{
-    content: url(./comments/share.png);
+    content: url(../images/comments/share.png);
 }
 div.comments div.container div.post1 div.food{
     grid-row: 4/5;
     grid-column: 2/4;
-    background: url(./comments/food.png) no-repeat bottom left;
+    background: url(../images/comments/food.png) no-repeat bottom left;
 }
 div.comments div.container div.post1 div.thanks{
     padding-top: 16px;
@@ -1247,7 +1247,7 @@ div.comments div.container div.post1 div.answer{
 div.comments div.container div.post1 div.answer div.answerPhoto{
     height: 58px;
     width: 58px;
-    background: url(./comments/bloger.png);
+    background: url(../images/comments/bloger.png);
     grid-row: 1/4;
     grid-column: 1/2;
 }
@@ -1280,7 +1280,7 @@ div.comments div.container div.post1 div.answer div.answerMore{
     font-size: 15px;
 }
 div.comments div.container div.post1 div.answer div.answerMore div.share::after{
-    content: url(./comments/share.png);
+    content: url(../images/comments/share.png);
 }
 div.comments div.container div.post1 div.answer div.comment{
     grid-row: 4/5;
@@ -1306,7 +1306,7 @@ div.comments div.container div.post2{
 div.comments div.container div.post2 div.photo{
     height: 58px;
     width: 58px;
-    background: url(./comments/bloger.png);
+    background: url(../images/comments/bloger.png);
     grid-row: 1/4;
     grid-column: 1/2;
 }
@@ -1339,7 +1339,7 @@ div.comments div.container div.post2 div.more{
     font-size: 15px;
 }
 div.comments div.container div.post2 div.more div.share::after{
-    content: url(./comments/share.png);
+    content: url(../images/comments/share.png);
 }
 div.comments div.container div.post2 div.comment{
     grid-row: 4/5;
@@ -1347,11 +1347,11 @@ div.comments div.container div.post2 div.comment{
     padding-top: 15px;
     font-weight: normal;
     font-size: 17px;
-} */
+}
 
 /* Navigation */
 
-/* div.navigation{
+div.navigation{
     height: 93px;
     padding-top: 44px;
     padding-bottom: 150px;
@@ -1381,11 +1381,11 @@ div.navigation div.numbers div.two{
 div.navigation div.numbers div.arrow,
 div.navigation div.numbers div.number{
     cursor: pointer;
-} */
+}
 
 /* Footer */
 
-/* div.footer{
+div.footer{
     height: 180px;
     width: 77.85vw;
     margin: 0 auto;
@@ -1407,7 +1407,7 @@ div.footer div.container{
 div.footer div.container div.footerLogo{
     width: 87px;
     height: 36px;
-    background: url(./logos/footerLogo.png);
+    background: url(../images/logos/footerLogo.png);
 }
 div.footer div.container div.links{
     width: 32vw;
@@ -1419,11 +1419,11 @@ div.footer div.container div.links{
 }
 div.footer div.container div.copyright{
     padding-top: 10px;
-} */
+}
 
 /* Mob */
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
     div.logo,
     div.gridContainer1 div.topMenu div.menu a,
     div.gridContainer1 div.heroPage div.container div.recipeName,
@@ -1447,7 +1447,7 @@ div.footer div.container div.copyright{
         grid-template-rows: 102px 273px 899px;
     }
     div.gridContainer1 div.topMenu{
-        background: #fbfcfd url(./logos/topMenuLogo.png) no-repeat 10vw 45%;
+        background: #fbfcfd url(../images/logos/topMenuLogo.png) no-repeat 10vw 45%;
     }
     div.gridContainer1 div.topMenu div.menu{
         justify-content: flex-end;
@@ -1471,7 +1471,7 @@ div.footer div.container div.copyright{
     }
     div.gridContainer1 div.heroPage{
         display: block;
-        background: url(./mob/heroPage.png) no-repeat top center;
+        background: url(../images/mob/heroPage.png) no-repeat top center;
     }
     div.gridContainer1 div.heroPage div.container{
         margin-left: 0;
@@ -1564,4 +1564,4 @@ div.footer div.container div.copyright{
     div.footer div.container{
         padding: 0 25px;
     }
-} */
+}
