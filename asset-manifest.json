@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.1b01f6a5.css",
+    "main.js": "/react-app/static/js/main.89b95f02.js",
+    "static/media/image.png": "/react-app/static/media/image.949236d9264cca09c1fd.png",
+    "static/media/background.png": "/react-app/static/media/background.3fc1329eccd479f5cb2b.png",
+    "static/media/logo.png": "/react-app/static/media/logo.e9d9ae1d7ed12cdba8bd.png",
+    "static/media/footerLogo.png": "/react-app/static/media/footerLogo.1f742cf47330cea30ff8.png",
+    "static/media/topMenuLogo.png": "/react-app/static/media/topMenuLogo.57bd9827451dbfb8f2f9.png",
+    "static/media/recipe2.png": "/react-app/static/media/recipe2.af5014fd94e73ee80a5c.png",
+    "static/media/recipe1.png": "/react-app/static/media/recipe1.97e9d55d890e28568a66.png",
+    "static/media/food.png": "/react-app/static/media/food.a7c1f2d21363dff8c3d4.png",
+    "static/media/heroPage.png": "/react-app/static/media/heroPage.efe7e2f7f48389227c3e.png",
+    "static/media/recipe3.png": "/react-app/static/media/recipe3.09cc68512181b58353a4.png",
+    "static/media/photo.png": "/react-app/static/media/photo.059eec348f31fc1be7c5.png",
+    "static/media/karen.png": "/react-app/static/media/karen.a39ae6cfe63a8c5b90e5.png",
+    "static/media/bloger.png": "/react-app/static/media/bloger.42d831c6383f63fbc7e4.png",
+    "static/media/newlyweds.png": "/react-app/static/media/newlyweds.46de3f05df29cbe82541.png",
+    "static/media/housewives.png": "/react-app/static/media/housewives.e236d0de1556aeb85615.png",
+    "static/media/businessLady.png": "/react-app/static/media/businessLady.adeaa5fcebab5dcc45fa.png",
+    "static/media/signature.png": "/react-app/static/media/signature.4592590fe67b1919e099.png",
+    "static/media/long.png": "/react-app/static/media/long.8fad91c4a37d347b8993.png",
+    "static/media/middle.png": "/react-app/static/media/middle.2a2a6daad8bb4c5c5624.png",
+    "static/media/easy.png": "/react-app/static/media/easy.65efa19d989f998f0492.png",
+    "index.html": "/react-app/index.html",
+    "main.1b01f6a5.css.map": "/react-app/static/css/main.1b01f6a5.css.map",
+    "main.89b95f02.js.map": "/react-app/static/js/main.89b95f02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b01f6a5.css",
+    "static/js/main.89b95f02.js"
+  ]
+}
